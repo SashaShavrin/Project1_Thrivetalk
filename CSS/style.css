@@ -933,7 +933,7 @@ body {
 }
 
 .page-five-blok-three {
-  background: url(../img/klyb.png);
+  background: url(IMG/klyb.png);
   background-size: 100%;
   background-repeat: round;
 }
@@ -1107,7 +1107,7 @@ body {
 }
 
 .page-seven-item-left {
-  background: url(../img/man.png);
+  background: url(IMG/man.png);
   width: 480px;
   height: 800px;
   background-repeat: no-repeat;
@@ -1255,7 +1255,7 @@ body {
 }
 
 .page-eight-item-right {
-  background: url(../img/man2.png);
+  background: url(IMG/man2.png);
   width: 480px;
   background-repeat: no-repeat;
 }
