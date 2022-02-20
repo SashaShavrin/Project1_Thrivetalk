@@ -933,7 +933,7 @@ body {
 }
 
 .page-five-blok-three {
-  background-image: url(https://github.com/SashaShavrin/Project1_Thrivetalk/blob/main/CSS/klyb.png);
+  background-image: image();
   background-size: 100%;
   background-repeat: round;
 }
@@ -1011,6 +1011,11 @@ body {
   padding-right: 5%;
 }
 
+@media (max-width: 576px) {
+  .page-six-blok{
+    margin-bottom: -7%;
+  }
+}
 
 
 .page-six-blok-one, .page-six-blok-two, .page-six-blok-three, .page-six-blok-four, .page-six-blok-five, .page-six-blok-six {
@@ -1095,6 +1100,18 @@ body {
       justify-content: space-around;
 }
 
+@media (max-width: 1200px) {
+  .page-seven-item {
+    height: 669px;
+  }
+}
+
+@media (max-width: 992px) {
+  .page-seven-item {
+    height: 780px;
+  }
+}
+
 @media (max-width: 768px) {
   .page-seven-item {
     display: -webkit-box;
@@ -1102,40 +1119,42 @@ body {
     display: flex;
     -ms-flex-wrap: wrap-reverse;
         flex-wrap: wrap-reverse;
-    margin-top: -20%;
+    margin-top: -25%;
   }
 }
 
 .page-seven-item-left {
-  background: URL(/CSS/man.png);
-  width: 480px;
-  height: 800px;
-  background-repeat: no-repeat;
-  -webkit-box-flex: 100%;
-      -ms-flex: 100%;
-          flex: 100%;
-  background-size: 100%;
+  flex: 100%;
+    overflow: hidden;
+    width: 100%;
+    height: 800px;
 }
 
 @media (max-width: 768px) {
   .page-seven-item-left {
-    background-size: 100%;
-    background-position-x: 0%;
-    background-position-y: 40%;
-    height: 350px;
-    width: 100%;
+    height: 441px;
+    margin: 20% 0 -20% 0;
   }
 }
 
-@media (max-width: 1200px) {
-  .page-seven-item-left-man {
-    width: 495px;
+@media (max-width: 576px) {
+  .page-seven-item-left {
+    margin: 6% 0 -18% 0;
   }
 }
+
 
 @media (max-width: 1200px) {
   .page-seven-item-left-man {
     width: 400px;
+  }
+}
+
+@media (max-width: 768px) {
+  .page-seven-item-left-man {
+    object-fit: cover;
+    width: 100%;
+    height: 600px;
   }
 }
 
@@ -1149,8 +1168,14 @@ body {
 @media (max-width: 768px) {
   .page-seven-item-right {
     height: 0%;
-    margin-bottom: 10%;
+    margin-bottom: 35%;
     text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .page-seven-item-right {
+    margin-bottom: 60%;
   }
 }
 
@@ -1241,8 +1266,14 @@ body {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   margin-top: -15%;
+  height: 800px;
 }
 
+@media (max-width: 992px) {
+  .page-eight-item {
+    height: 576px;
+  }
+}
 @media (max-width: 768px) {
   .page-eight-item {
     display: -webkit-box;
@@ -1251,38 +1282,31 @@ body {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     margin-top: 15%;
+    height: auto;
   }
 }
 
 .page-eight-item-right {
-  background: url(Project1_Thrivetalk/CSS/man2.png);
-  width: 480px;
-  background-repeat: no-repeat;
+  width: 900px;
 }
 
 @media (max-width: 768px) {
   .page-eight-item-right {
-    background-size: 100%;
-    background-position-x: 0%;
-    background-position-y: 40%;
-    height: 480px;
+    height: 576px;
+    margin: 0;
+    overflow: hidden;
     width: 100%;
   }
 }
 
 .page-eight-item-right-man2 {
-  width: 480px;
-}
-
-@media (max-width: 1200px) {
-  .page-eight-item-right-man2 {
-    width: 480px;
-  }
+  object-fit: cover;
 }
 
 @media (max-width: 992px) {
   .page-eight-item-right-man2 {
-    width: 400px;
+    width: 100%;
+    height: 576px;
   }
 }
 
@@ -1310,6 +1334,7 @@ body {
     margin-bottom: 10%;
     text-align: center;
     margin-left: 5%;
+    margin-right: 5%;
   }
 }
 
@@ -1339,7 +1364,7 @@ body {
   padding-right: 15%;
   line-height: 1.6;
   font-weight: 700;
-  padding-top: 12%;
+  padding-top: 0%;
 }
 
 @media (max-width: 1200px) {
@@ -1359,7 +1384,8 @@ body {
 @media (max-width: 768px) {
   .page-eight-item-left-fact {
     font-size: 34px;
-   
+    padding-right: 0;
+    padding-top: 7%;
   }
 }
 
@@ -1384,6 +1410,7 @@ body {
 @media (max-width: 768px) {
   .page-eight-item-left-vse {
     font-size: 23px;
+    padding-right: 0;
   }
 }
 
@@ -1600,8 +1627,3 @@ body {
   opacity: 0.7;
   color: #000000;
 }
-
-
-
-
-
