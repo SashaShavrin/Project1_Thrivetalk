@@ -149,6 +149,12 @@ body {
   }
 }
 
+@media (max-width: 576px) {
+  .nav {
+    padding: 10px 0px;
+  }
+}
+
 .nav-link {
   text-decoration: none;
   color: #22356F;
