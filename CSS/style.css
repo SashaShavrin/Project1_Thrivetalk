@@ -933,7 +933,7 @@ body {
 }
 
 .page-five-blok-three {
-  background: url(CSS/klyb.png);
+  background: src(CSS/klyb.png);
   background-size: 100%;
   background-repeat: round;
 }
