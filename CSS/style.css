@@ -1107,7 +1107,7 @@ body {
 }
 
 .page-seven-item-left {
-  background: url(/CSS/man.png);
+  background: URL(/CSS/man.png);
   width: 480px;
   height: 800px;
   background-repeat: no-repeat;
