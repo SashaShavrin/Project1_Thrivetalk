@@ -1107,7 +1107,7 @@ body {
 }
 
 .page-seven-item-left {
-  background: url(CSS/man.png);
+  background: url(/CSS/man.png);
   width: 480px;
   height: 800px;
   background-repeat: no-repeat;
@@ -1255,7 +1255,7 @@ body {
 }
 
 .page-eight-item-right {
-  background: url(CSS/man2.png);
+  background: url(Project1_Thrivetalk/CSS/man2.png);
   width: 480px;
   background-repeat: no-repeat;
 }
