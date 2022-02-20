@@ -128,9 +128,11 @@ body {
   }
 }
 
-.nav-item {
-  margin-right:  3vh;
+.nav-item{
   list-style-type: none;
+}
+.nav-item:not(:last-child) {
+  margin-right:  3vh;
 }
 
 @media (max-width: 768px) {
